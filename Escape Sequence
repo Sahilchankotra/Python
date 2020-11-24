@@ -1,0 +1,21 @@
+#Single blackslash(\) Used to print any special charcter in your output. for ex.
+# output needed:-> \
+#Code
+
+print("\\") #Here we need single slash we used one back slash to print single slash
+
+#Outout needed:-> '
+
+print("\'") # Here bot will print '
+
+# "\t" Used to print tab in your code
+
+print("Hello\tguys") #Will get output Hello   guys
+
+#output \" \'
+
+print('\\" \\\'')
+
+# We can also used r to print escape sequece. below is the examples
+
+print(r'this is \n this is not this')
