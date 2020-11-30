@@ -1,0 +1,8 @@
+lst=[2, 2, 3, 3, 3]
+l=len(lst)-1
+ans=[]
+for i,j in enumerate(lst):
+    if lst[i] not in ans:
+        ans.append(lst[i])
+        #print(ans)
+print(ans)
